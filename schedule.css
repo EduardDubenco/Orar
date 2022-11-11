@@ -81,7 +81,6 @@ input{
 }
 
 #search-selection a{
-    border-bottom: 1;
     display: grid;
     grid-column: 1;
     text-decoration: none;
