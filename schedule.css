@@ -25,6 +25,7 @@ body{
     padding-top: 0em;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
+    color: #666;
 }
 
 .left, .right{
@@ -48,7 +49,6 @@ ul {
     background-color: #25975A;
     color: white;
     padding: 1em 2em;
-    border-bottom: 1px solid #666;
 }
 
 .button:hover {
@@ -100,13 +100,14 @@ input{
 }
 
 #footer{
+    margin-top: 1em;
     display: flex;
     height: 2em;
-    padding: 1em 1em;
-    background-color: aliceblue;
+    padding: 1em 1em 0em 1em;
+    background-color: white;
     border: 0;
-    color: green;
-    justify-content: space-around
+    color: #25975A;
+    justify-content: flex-start;
 }
 
 .table .row{
@@ -149,8 +150,6 @@ input{
     box-shadow: 5px 5px 10px 1px #333;
 }
 
-
-
 .conteiner .right .table .row1 .cell2{
     border-bottom: 1px solid #666;
     border-right: 1px solid #666;
@@ -163,6 +162,7 @@ input{
 .right .table .row1 .cell2 strong{
     display: block;
     width: 100%;
+    color: #666;
 }
 
 .right .table .row1 .cell2 div{
@@ -198,13 +198,17 @@ input{
     text-decoration: none;
 }
 
+.pre-footer div{
+    text-decoration: none;
+}
+
 #descarca {
     display: flex;
     flex-direction: row;
     background-color: #25975A;
     border: 1px white solid;
     border-radius: 4px;
-    width: 7em;
+    width: 8em;
 }
 
 .text {
