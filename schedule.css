@@ -21,7 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: white;
     padding-top: 0em;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
@@ -38,6 +38,7 @@ ul {
 .buttons-conteiner {
     display: flex;
     padding: 0;
+    justify-content: space-between;
 }
 
 .button {
@@ -47,7 +48,7 @@ ul {
     background-color: #25975A;
     color: white;
     padding: 1em 2em;
-    margin-right: 3.7em;
+    border-bottom: 1px solid #666;
 }
 
 .button:hover {
@@ -66,10 +67,23 @@ ul {
 #search-selection{
     height:5em;
     overflow: scroll;
-    background-color: aliceblue;
+    background-color: white;
     margin-bottom: 1em;
     text-align: left;
     padding-left: 1em;
+}
+
+#search-selection a{
+    border-bottom: 1;
+    display: grid;
+    grid-column: 1;
+    text-decoration: none;
+    color: #666;
+}
+
+#search-selection a:hover{
+    color: #25975A;
+    background-color: lightyellow;
 }
 
 #inputs-conteiner select{
@@ -127,6 +141,8 @@ ul {
     color: aliceblue;
     box-shadow: 5px 5px 10px 1px #333;
 }
+
+
 
 .conteiner .right .table .row1 .cell2{
     border-bottom: 1px solid #666;
