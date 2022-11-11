@@ -242,3 +242,7 @@ input{
     border-radius: 4px;
     margin-left: 20px;
 }
+
+.right .table .row1 .hover:hover{
+background-color: lightyellow;
+}
